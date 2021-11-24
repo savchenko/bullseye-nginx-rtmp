@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-auth-pam-dbgsym
+Source: nginx
+Version: 1.18.0-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 48
+Depends: libnginx-mod-http-auth-pam (= 1.18.0-6.1)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-auth-pam
+Build-Ids: 515ad7ac0205aa86bd1a333fbbb2968d713e385c

@@ -1,0 +1,15 @@
+Package: libnginx-mod-http-fancyindex
+Source: nginx
+Version: 1.18.0-6.1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 143
+Depends: nginx-common (= 1.18.0-6.1), libc6 (>= 2.14)
+Suggests: nginx
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: Fancy indexes module for the Nginx
+ The Fancy Index module makes possible the generation of file listings, like
+ the built-in autoindex module does, but adding a touch of style by introducing
+ ways to customize the result.

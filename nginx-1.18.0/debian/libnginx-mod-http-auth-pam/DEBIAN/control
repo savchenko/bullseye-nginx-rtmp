@@ -1,0 +1,16 @@
+Package: libnginx-mod-http-auth-pam
+Source: nginx
+Version: 1.18.0-6.1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 126
+Depends: nginx-common (= 1.18.0-6.1), libc6 (>= 2.14), libpam0g (>= 0.99.7.1)
+Recommends: nginx
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: PAM authentication module for Nginx
+ The nginx_http_auth_pam module enables authentication using PAM.
+ .
+ The module uses PAM as a backend for simple http authentication. It
+ also allows setting the pam service name to allow more fine grained control.

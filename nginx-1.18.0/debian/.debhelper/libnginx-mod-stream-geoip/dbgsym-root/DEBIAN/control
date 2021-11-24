@@ -1,0 +1,12 @@
+Package: libnginx-mod-stream-geoip-dbgsym
+Source: nginx
+Version: 1.18.0-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 37
+Depends: libnginx-mod-stream-geoip (= 1.18.0-6.1)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-stream-geoip
+Build-Ids: c23df0f437ac9533ee785b37d0039e7afbe01056

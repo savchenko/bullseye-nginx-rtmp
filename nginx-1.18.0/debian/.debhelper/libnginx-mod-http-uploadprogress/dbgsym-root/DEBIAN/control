@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-uploadprogress-dbgsym
+Source: nginx
+Version: 1.18.0-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 63
+Depends: libnginx-mod-http-uploadprogress (= 1.18.0-6.1)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-uploadprogress
+Build-Ids: 77d5d1df5ebcaafe55ff4840ab98c992ff8abf99

@@ -1,0 +1,36 @@
+Package: nginx-core
+Source: nginx
+Version: 1.18.0-6.1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 1567
+Depends: libnginx-mod-http-geoip (= 1.18.0-6.1), libnginx-mod-http-image-filter (= 1.18.0-6.1), libnginx-mod-http-xslt-filter (= 1.18.0-6.1), libnginx-mod-mail (= 1.18.0-6.1), libnginx-mod-stream (= 1.18.0-6.1), libnginx-mod-stream-geoip (= 1.18.0-6.1), nginx-common (= 1.18.0-6.1), iproute2, libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libpcre3, libssl1.1 (>= 1.1.1), zlib1g (>= 1:1.1.4)
+Suggests: nginx-doc (= 1.18.0-6.1)
+Conflicts: nginx-extras, nginx-light
+Breaks: nginx (<< 1.4.5-1), nginx-full (<< 1.18.0-1)
+Replaces: nginx-full (<< 1.18.0-1)
+Provides: httpd, httpd-cgi, nginx
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: nginx web/proxy server (standard version)
+ Nginx ("engine X") is a high-performance web and reverse proxy server
+ created by Igor Sysoev. It can be used both as a standalone web server
+ and as a proxy to reduce the load on back-end HTTP or mail servers.
+ .
+ This package provides a version of nginx identical to that of nginx-full,
+ but without any third-party modules, and only modules in the original
+ nginx code base.
+ .
+ STANDARD HTTP MODULES: Core, Access, Auth Basic, Auto Index, Browser, Empty
+ GIF, FastCGI, Geo, Limit Connections, Limit Requests, Map, Memcached, Proxy,
+ Referer, Rewrite, SCGI, Split Clients, UWSGI.
+ .
+ OPTIONAL HTTP MODULES: Addition, Auth Request, Charset, WebDAV, GeoIP, Gunzip,
+ Gzip, Gzip Precompression, Headers, HTTP/2, Image Filter, Index, Log, Real IP,
+ Slice, SSI, SSL, SSL Preread, Stub Status, Substitution, Thread  Pool,
+ Upstream, User ID, XSLT.
+ .
+ OPTIONAL MAIL MODULES: Mail Core, Auth HTTP, Proxy, SSL, IMAP, POP3, SMTP.
+ .
+ OPTIONAL STREAM MODULES: Stream Core, GeoIP

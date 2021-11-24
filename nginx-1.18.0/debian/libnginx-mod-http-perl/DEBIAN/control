@@ -1,0 +1,19 @@
+Package: libnginx-mod-http-perl
+Source: nginx
+Version: 1.18.0-6.1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 183
+Depends: nginx-common (= 1.18.0-6.1), perl, perlapi-5.32.1, libc6 (>= 2.14), libperl5.32 (>= 5.32.0~rc1)
+Recommends: nginx
+Replaces: nginx-extras (<< 1.9.14-1)
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: Perl module for Nginx
+ Embed Perl runtime into nginx.
+ .
+ The ngx_http_perl module is used to implement location and variable handlers
+ in Perl and insert Perl calls into SSI.
+ .
+ Note that this module is marked experimental.

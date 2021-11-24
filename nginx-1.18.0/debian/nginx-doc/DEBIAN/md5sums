@@ -1,0 +1,16 @@
+2f03c95344717b9e13e074800f86cf8c  usr/share/doc/nginx-doc/changelog.Debian.gz
+ec313f76c1cd260b35897ff2101afec5  usr/share/doc/nginx-doc/changelog.gz
+541f7983ae8e9a3371b3c7a1ee5fac17  usr/share/doc/nginx-doc/copyright
+6a35d7240f0011220c3ae328e9e0d5ec  usr/share/doc/nginx/README
+594d89b1cc7abe80c9e6dbdda1923b0c  usr/share/doc/nginx/examples/drupal
+3633cae8f81c512af759abd3c794d76e  usr/share/doc/nginx/examples/http
+fb1535a59a853f05644b6dd1f31eb0b3  usr/share/doc/nginx/examples/mail
+433143fa0db48488e67d1e7ddf41e6e9  usr/share/doc/nginx/examples/mailman
+454e44ae3c97350e920bda6a47e909df  usr/share/doc/nginx/examples/nginx.conf
+b82a8a7054ab5c7deb37662b47bec03a  usr/share/doc/nginx/examples/nginx_modsite
+8d929ffe91aa91b8eab4c2b37dc49bef  usr/share/doc/nginx/examples/virtual_hosts
+5cad3c2cf2dd82e2b5812b76c99e2389  usr/share/doc/nginx/examples/wordpress
+0459d8e5922313c462f6930b89b65478  usr/share/doc/nginx/fcgiwrap
+58122636a2f1247664d98643227731f5  usr/share/doc/nginx/php
+0a471c29ddd52a88efdabd5d6e09875d  usr/share/doc/nginx/support-irc
+8448eaad2c10d4152e539c1ca784d59f  usr/share/doc/nginx/upstream

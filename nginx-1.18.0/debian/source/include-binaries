@@ -1,0 +1,6 @@
+debian/modules/nginx-rtmp-module/test/www/bg.jpg
+debian/modules/nginx-rtmp-module/test/www/jwplayer/jwplayer.flash.swf
+debian/modules/nginx-rtmp-module/test/www/jwplayer_old/player.swf
+debian/modules/nginx-rtmp-module/test/rtmp-publisher/RtmpPublisher.swf
+debian/modules/nginx-rtmp-module/test/rtmp-publisher/RtmpPlayerLight.swf
+debian/modules/nginx-rtmp-module/test/rtmp-publisher/RtmpPlayer.swf

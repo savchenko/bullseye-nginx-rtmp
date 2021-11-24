@@ -1,0 +1,17 @@
+Package: libnginx-mod-http-geoip
+Source: nginx
+Version: 1.18.0-6.1
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 131
+Depends: nginx-common (= 1.18.0-6.1), libc6 (>= 2.14), libgeoip1 (>= 1.6.12)
+Recommends: nginx
+Section: httpd
+Priority: optional
+Homepage: https://nginx.net
+Description: GeoIP HTTP module for Nginx
+ The ngx_http_geoip module creates variables with values depending on the
+ client IP address, using the precompiled MaxMind databases.
+ .
+ Those variables include country, region, city, latitude, longitude, postal
+ code, etc.

@@ -1,0 +1,12 @@
+Package: libnginx-mod-rtmp-dbgsym
+Source: nginx
+Version: 1.18.0-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 397
+Depends: libnginx-mod-rtmp (= 1.18.0-6.1)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-rtmp
+Build-Ids: 7557ee28f76321957bbce1bf0b34df4b42c39c29

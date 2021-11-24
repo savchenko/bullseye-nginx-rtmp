@@ -1,0 +1,12 @@
+Package: libnginx-mod-http-perl-dbgsym
+Source: nginx
+Version: 1.18.0-6.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
+Installed-Size: 124
+Depends: libnginx-mod-http-perl (= 1.18.0-6.1)
+Section: debug
+Priority: optional
+Description: debug symbols for libnginx-mod-http-perl
+Build-Ids: 24ed075a6339c36ad80957257c4555d83d4b1950 e7065e10567d36a548901aa5b63bc2a5b0010a92
